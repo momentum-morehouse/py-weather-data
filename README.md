@@ -17,7 +17,8 @@ Make a request to the realtime endpoint using `requests` to obtain the temp and 
 Create a list of tuples called `locations` that contains pairs of (latitude, longitude) for 10 locations of your choice.
 
 ### Step 4
-Write a function (or set of functions) that finds and stores temp and precipitation for each location in the list `locations`.
+Write a function (or set of functions) that makes a request to obtain temp and precipitation for each location in the list `locations`. 
+Store the results of these requests.
 You may want to think about how a class or classes could help organize your data here.
 
 ### Bonus
